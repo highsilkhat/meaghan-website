@@ -1,8 +1,9 @@
 import MenuLink from './MenuLink'
 import Mail from '../assets/mail.svg'
 import Link from 'next/link'
+import React from "react";
 
-const Header: React.VFC = () => {
+const Header: React.FC = () => {
     return(
         
         
