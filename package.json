@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/nanum-myeongjo": "4.5.2",
     "clsx":"^1.2.1",
     "minimist": "^1.2.6",
     "@next/codemod": "15.1.5",

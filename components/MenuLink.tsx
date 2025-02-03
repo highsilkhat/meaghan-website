@@ -20,13 +20,11 @@ const MenuLink: React.FC<MenuLinkProps> = ({
 
     return (
         <div className='group'>
-        <Link {...rest} >
-                <a className={clsx(className, 'flex flex-col items-center')}
+        <Link {...rest} className={clsx(className, 'flex flex-col items-center')}
                 >
                     <IconComponent/>
 
               <p className={iconTextStyling}>{iconText}</p>
-            </a>
         </Link>
         </div>
     )
