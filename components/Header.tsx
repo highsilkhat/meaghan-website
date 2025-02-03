@@ -27,8 +27,7 @@ const Header: React.FC = () => {
                             p-5"
                 >
                     
-                    <Link href={'/'}>
-                        <a className="group">
+                    <Link href={'/'} className="group">
                             <div
                                 className="
                             text-5xl
@@ -40,7 +39,6 @@ const Header: React.FC = () => {
                             >
                             Meaghan Lee
                             </div>
-                        </a>
                     </Link>
                     <div
                         className='
