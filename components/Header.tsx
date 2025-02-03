@@ -50,21 +50,17 @@ const Header: React.FC = () => {
                         text-amber-100
                         text-opacity-50'
                     >
-                        <MenuLink
-                            className="
-
-                group-hover:text-amber-400
-                group-hover:text-opacity-100"
+                        <MenuHref
+                            className="group-hover:text-amber-400
+                            group-hover:text-opacity-100"
                             href="mailto:meaghan@meaghanlee.com"
                             iconComponent={EmailIcon}
                             iconText="Email"
-                            iconTextStyling="
-                text-xs
-                visible md:invisible group-hover:visible"
+                            iconTextStyling="text-xs visible md:invisible group-hover:visible"
                         />
-                        <MenuLink
-                            className="group-hover:text-amber-40
-                            group-hover:text-opacity-100"
+                        <MenuHref
+                            className="group-hover:text-amber-400
+                            group-hover:text-opacity-1000"
                             href="https://www.linkedin.com/in/paul-d-lee/"
                             iconComponent={LinkedInIcon}
                             iconText="LinkedIn"
