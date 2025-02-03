@@ -58,7 +58,7 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
                 >
-                    Skills include: GIS Tools: Experienced with ArcGIS Pro, ArcGIS Online, and QGIS for spatial analysis and data visualization. ; Data Visualization & Analysis: Proficient in SPSS, Microsoft Excel, and Power Point for presenting complex data. ; Project & Data Management: Proficient in SQL, NVivo, Qualtrics, Microsoft Forms and Survey Monkey for data collection and analysis.
+                   Experienced with ArcGIS Pro, ArcGIS Online, and QGIS for spatial analysis and data visualization. Data Visualization & Analysis. Proficient in SPSS, Microsoft Excel, and Power Point for presenting complex data. Project & Data Management. Proficient in SQL, NVivo, Qualtrics, Microsoft Forms and Survey Monkey for data collection and analysis.
                 </p>
             </div>
         </div>

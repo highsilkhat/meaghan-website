@@ -1,8 +1,8 @@
-import MenuLink from './MenuLink'
 import EmailIcon from '../assets/mail.svg'
 import LinkedInIcon from '../assets/logo-linkedin.svg'
 import Link from 'next/link'
 import React from "react";
+import MenuHref from "./MenuHref";
 
 const Header: React.FC = () => {
     return(
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
                         <MenuHref
                             className="group-hover:text-amber-400
                             group-hover:text-opacity-1000"
-                            href="https://www.linkedin.com/in/paul-d-lee/"
+                            href="https://www.linkedin.com/in/meaghanelee/"
                             iconComponent={LinkedInIcon}
                             iconText="LinkedIn"
                             iconTextStyling="text-xs visible md:invisible group-hover:visible"
