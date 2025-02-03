@@ -40,7 +40,7 @@ const Home: NextPage = () => {
               rounded-lg md:rounded-r-full
             "
                 >
-                    Paul Lee is a CKAD and AZ-204 certified Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul led his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company.
+                    A curious and innovative researcher with 5 years of experience in high quality quantitative and qualitative demographic analysis. Proven ability in project management and utilization of spatial analysis technical software. Exceptional communication and presentation skills with a natural ability to build relationships. An independent problem solver who thrives as a team player in a diverse organization delivering customized solutions to clients.
                 </p>
 
                 <p
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
                 >
-                    Paul currently leads a team initiative to improve observability, metrics, and traceability. In his previous position, he led a team initiative to deploy their first cloud-hosted application. Paul is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He works out of and lives in Seattle.
+                    Skills include: GIS Tools: Experienced with ArcGIS Pro, ArcGIS Online, and QGIS for spatial analysis and data visualization. ; Data Visualization & Analysis: Proficient in SPSS, Microsoft Excel, and Power Point for presenting complex data. ; Project & Data Management: Proficient in SQL, NVivo, Qualtrics, Microsoft Forms and Survey Monkey for data collection and analysis.
                 </p>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import MenuLink from './MenuLink'
-import Mail from '../assets/mail.svg'
+import EmailIcon from '../assets/mail.svg'
+import LinkedInIcon from '../assets/logo-linkedin.svg'
 import Link from 'next/link'
+import MenuHref from './MenuHref'
 import React from "react";
 
 const Header: React.FC = () => {
@@ -47,21 +49,34 @@ const Header: React.FC = () => {
                         gap-4 md:gap-2
                         text-3xl med:text-4xl
                         text-amber-100
-                        text-opacity-50
-                        '
+                        text-opacity-50'
                     >
-                    <MenuLink
-                        href="/bio"
-                        className='
-                        group-hover:text-amber-500
-                        group-hover:text-opacity-100'
-                        iconComponent={Mail}
-                        iconText="contact"
-                        iconTextStyling='
-                        text-xs
-                        visible md:invisible group-hover:visible'
-                    
-                    />
+                        <MenuLink
+                            className="
+
+                group-hover:text-amber-400
+                group-hover:text-opacity-100"
+                            href="mailto:meaghan@meaghanlee.com"
+                            iconComponent={EmailIcon}
+                            iconText="Email"
+                            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible"
+                        />
+                        <MenuHref
+                            className="
+                group-hover:text-amber-400
+                group-hover:text-opacity-100
+              "
+                            href="https://www.linkedin.com/in/paul-d-lee/
+              "
+                            iconComponent={LinkedInIcon}
+                            iconText="LinkedIn"
+                            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+                        />
 
                     </div>
 
