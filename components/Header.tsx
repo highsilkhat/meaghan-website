@@ -9,8 +9,7 @@ const Header: React.FC = () => {
         
         <div
             className='
-            py-10 md:py-20
-        '
+            py-10 md:py-20xw'
         >
 
             <div
@@ -25,8 +24,7 @@ const Header: React.FC = () => {
                             flex justify-between
                             gap-2
                             font-thin
-                            p-5
-                        "
+                            p-5"
                 >
                     
                     <Link href={'/'}>
@@ -38,8 +36,7 @@ const Header: React.FC = () => {
                             text-amber-100
                             text-opacity-50
                             group-hover:text-amber-400
-                            group-hover:text-opacity-100
-                            "
+                            group-hover:text-opacity-100"
                             >
                             Meaghan Lee
                             </div>
