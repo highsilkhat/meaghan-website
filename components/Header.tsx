@@ -1,5 +1,6 @@
 import EmailIcon from '../assets/mail.svg'
 import LinkedInIcon from '../assets/logo-linkedin.svg'
+import ReaderIcon from '../assets/book.svg'
 import Link from 'next/link'
 import React from "react";
 import MenuHref from "./MenuHref";
@@ -50,6 +51,19 @@ const Header: React.FC = () => {
                         text-amber-100
                         text-opacity-50'
                     >
+                        <MenuHref
+                            href="/blog"
+                            className="
+              group-hover:text-amber-400
+              group-hover:text-opacity-100
+            "
+                            iconComponent={EmailIcon}
+                            iconText="Blog"
+                            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
+                        />
                         <MenuHref
                             className="group-hover:text-amber-400
                             group-hover:text-opacity-100"
