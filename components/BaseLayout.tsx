@@ -13,7 +13,7 @@ const BaseLayout: React.FC<{children?: React.ReactNode}> = ({ children }) => {
     "
     >
       <Head>
-        <title>Meaghan Lee</title>
+        <title>Paul Lee</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
