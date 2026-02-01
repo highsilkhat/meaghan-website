@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@fontsource/nanum-myeongjo": "4.5.2",
-    "clsx":"^1.2.1",
+    "clsx": "^1.2.1",
     "minimist": "^1.2.6",
     "@next/codemod": "15.1.5",
-    "next": "^15.1.5",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
